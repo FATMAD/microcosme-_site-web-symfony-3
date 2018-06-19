@@ -1,0 +1,51 @@
+{% extends 'GarderieBundle::base.html.twig' %}
+
+{% block body %}
+
+
+<div id="breadcrumbs" class="section-block-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<ol class="breadcrumb">
+								<li><a href="index-2.html">Home</a></li>
+								<li class="active">Register</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section id="authorization_page" class="authorization_page">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 dot">
+							<h2 class="section-title">Register</h2>
+							<p class="section-description">Already have an account? - <a href="login.html">Log In</a></p>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<form>
+								<div class="reg_box">
+									<input id="reg_email" name="reg_email" type="text" placeholder="Your email" required="required">
+									<input class="reg_pass" id="reg_pass" name="reg_pass" type="password" placeholder="********" required="required">
+									<input class="rep_pass" id="rep_pass" name="rep_pass" type="text" placeholder="Repeat password" required="required">
+								</div>
+								<div class="reg_checkbox">
+									<input type="checkbox" class="checkbox" id="checkbox" />
+									<label for="checkbox"></label>
+									<span>I agree to the <a href="#">Terms of service</a></span>
+								</div>
+								<button class="button" type="submit">Register</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+{% endblock %}

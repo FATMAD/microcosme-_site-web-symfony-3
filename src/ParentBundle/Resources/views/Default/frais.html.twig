@@ -1,0 +1,33 @@
+
+{% extends 'ParentBundle::base.html.twig' %}
+{% block Head %} 
+      {% block title %} <title> Frais </title> {% endblock %}
+    {% block SEO %} {% endblock %} 
+    {% block stylesheets %} {{ parent() }} {% endblock %}
+
+{% endblock %} 
+
+{% block Header %}
+    {{parent()}}
+    {% block user %}
+      {{parent()}} 
+    {% endblock %} 
+
+{% endblock %} 
+{% block menu %}{{parent()}} {% endblock %} 
+ {% block body %}
+ 	<div class="col-md-12 agile-calendar">
+			<div class="calendar-widget">
+                <div class="panel-heading ui-sortable-handle" style="background: #53d769;">
+					<span class="panel-icon">
+                        <i class="fa fa-book "></i>
+                    </span>
+                    <span class="panel-title"><STRONG >Details des frais  </STRONG></span>
+                </div>
+				<!-- grids -->
+					
+			</div>
+		</div>
+
+ {% endblock %} 
+ {% block javascripts %} {{parent()}} {% endblock %} 

@@ -1,0 +1,26 @@
+admin_homepage:
+    path:     /admin
+    defaults: { _controller: AdminBundle:Default:index }
+    
+admin_login:
+    path:     /admin/login
+    defaults: { _controller: AdminBundle:Default:login }         
+
+admin_user:
+    path:     /admin/user
+    defaults: { _controller: AdminBundle:Default:users }
+
+
+admin_blog:
+    path:     /admin/blog
+    defaults: { _controller: AdminBundle:Default:blog }
+
+
+admin_event:
+    path:     /admin/event
+    defaults: { _controller: AdminBundle:Default:event }
+
+admin_espaceparent:
+
+    path:     /admin/espaceparent
+    defaults: { _controller: AdminBundle:Default:espaceparent }

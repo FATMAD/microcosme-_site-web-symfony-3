@@ -1,0 +1,29 @@
+front_homepage:
+    path:     /front
+    defaults: { _controller: GarderieBundle:Default:index }
+
+front_login:
+    path:     /front/login
+    defaults: { _controller: AdminBundle:Default:login }         
+
+front_blog:
+    path:     /front/blog
+    defaults: { _controller:GarderieBundle:Default:blog }
+
+
+front_contact:
+    path:     /front/contact
+    defaults: { _controller: GarderieBundle:Default:contact}
+
+
+front_event:
+    path:     /front/event
+    defaults: { _controller:GarderieBundle:Default:event }
+
+front_services:
+    path:     /front/service
+    defaults: { _controller:GarderieBundle:Default:service }
+
+front_about:
+    path:     /front/about
+    defaults: { _controller:GarderieBundle:Default:about }

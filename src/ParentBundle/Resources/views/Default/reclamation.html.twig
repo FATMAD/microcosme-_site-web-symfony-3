@@ -1,0 +1,124 @@
+
+{% extends 'ParentBundle::base.html.twig' %}
+{% block Head %} 
+    {% block title %} <title> Reclamation </title> {% endblock %}
+    {% block SEO %} {% endblock %} 
+    {% block stylesheets %} {{ parent() }} {% endblock %}
+
+{% endblock %} 
+
+{% block Header %}
+    {{parent()}}
+    {% block user %}
+      {{parent()}} 
+    {% endblock %} 
+
+{% endblock %} 
+{% block menu %}{{parent()}} {% endblock %} 
+
+{% block body %}
+ </div>
+     </div>
+        </div>
+        
+        <!-- reclamation -->
+        <div class="col-md-12 agile-calendar">
+            <div class="calendar-widget">
+                <div class="panel-heading ui-sortable-handle" style="background: #0fc8b6;">
+                    <span class="panel-icon">
+                        <i class="fa fa-home " style="font-size:20px;"></i>
+                    </span>
+                    <span class="panel-title"><STRONG > Reclamation </STRONG></span>
+                </div>
+                <!-- grids -->
+                 <section class="panel">
+                    <header class="panel-heading wht-bg">
+                       <h4 class="gen-case"> Remarque Parent
+                       
+                       </h4>
+                    </header>
+                    <div class="panel-body">
+                        
+                        <div class="compose-mail">
+                            <form role="form-horizontal" method="post">
+                            
+                             <div class="compose-editor">
+                                    <textarea class="wysihtml5 form-control" rows="9"></textarea>
+                                    
+                                </div>
+                                <div class="compose-btn" >
+                                    <button style="background:#0fc8b6;" class="btn btn-primary btn-sm" ><i class="fa fa-check"></i> Send</button>
+                                    <button class="btn btn-sm"><i class="fa fa-times"></i> Effacer</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>  
+                    
+            </div>
+        
+    
+            <div class="clearfix">
+
+        </div>
+    </div>
+                    
+		<!---728x90--->
+<script src='../../../../../../../publisher.eboundservices.com/dynamicAds/dynamicScript.js'></script>
+<div style='margin: 0 auto;text-align: center;margin-top: 5px;'><script>
+var allowedNumberOfEboundDynamicAdds = 4;
+var sizesEboundDynamicAdsDesktop = ['728x90'];
+var sizesEboundDynamicAdsTablet = ['728x90'];
+var sizesEboundDynamicAdsMobile = ['320x100'];
+eboundAdsTagByDevice(sizesEboundDynamicAdsDesktop,sizesEboundDynamicAdsTablet,sizesEboundDynamicAdsMobile, 'ebound_header_tag');
+
+if(typeof user_tag_config == 'undefined'){
+	var user_tag_config = {};
+}
+user_tag_config['ebound_header_tag'] = {};
+user_tag_config['ebound_header_tag']['desktop'] = {};
+user_tag_config['ebound_header_tag']['desktop']['cpm'] = '';
+user_tag_config['ebound_header_tag']['desktop']['adsCode'] = '';
+user_tag_config['ebound_header_tag']['tablet'] = {};
+user_tag_config['ebound_header_tag']['tablet']['cpm'] = '';
+user_tag_config['ebound_header_tag']['tablet']['adsCode'] = '';
+user_tag_config['ebound_header_tag']['mobile'] = {};
+user_tag_config['ebound_header_tag']['mobile']['cpm'] = '';
+user_tag_config['ebound_header_tag']['mobile']['adsCode'] = '';
+</script></div>
+        
+
+
+
+			<!---728x90--->
+<script src='../../../../../../../publisher.eboundservices.com/dynamicAds/dynamicScript.js'></script>
+<div style='margin: 0 auto;text-align: center;margin-top: 5px;'><script>
+var allowedNumberOfEboundDynamicAdds = 4;
+var sizesEboundDynamicAdsDesktop = ['728x90'];
+var sizesEboundDynamicAdsTablet = ['728x90'];
+var sizesEboundDynamicAdsMobile = ['320x100'];
+eboundAdsTagByDevice(sizesEboundDynamicAdsDesktop,sizesEboundDynamicAdsTablet,sizesEboundDynamicAdsMobile, 'ebound_header_tag');
+
+if(typeof user_tag_config == 'undefined'){
+	var user_tag_config = {};
+}
+user_tag_config['ebound_header_tag'] = {};
+user_tag_config['ebound_header_tag']['desktop'] = {};
+user_tag_config['ebound_header_tag']['desktop']['cpm'] = '';
+user_tag_config['ebound_header_tag']['desktop']['adsCode'] = '';
+user_tag_config['ebound_header_tag']['tablet'] = {};
+user_tag_config['ebound_header_tag']['tablet']['cpm'] = '';
+user_tag_config['ebound_header_tag']['tablet']['adsCode'] = '';
+user_tag_config['ebound_header_tag']['mobile'] = {};
+user_tag_config['ebound_header_tag']['mobile']['cpm'] = '';
+user_tag_config['ebound_header_tag']['mobile']['adsCode'] = '';
+</script></div>
+        </div>
+
+        <!-- page end-->
+		 </div>
+{% endblock %}         
+{% block javascripts %}
+  {{parent()}}
+
+{% endblock %} 

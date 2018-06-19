@@ -1,0 +1,32 @@
+
+parent_login:    
+    path:     /parent
+    defaults: { _controller: ParentBundle:Default:login }
+
+parent_homepage:
+    path:     /parent/
+    defaults: { _controller: ParentBundle:Default:index }         
+
+
+parent_frais:
+    path:     /parent/frais
+    defaults: { _controller: ParentBundle:Default:frais }
+
+
+parent_avis:
+    path:     /parent/avis
+    defaults: { _controller: ParentBundle:Default:avis }
+
+
+parent_absence:
+    path:     /parent/absence
+    defaults: { _controller: ParentBundle:Default:absence }    
+
+
+parent_reclamation:
+    path:     /parent/reclamation
+    defaults: { _controller: ParentBundle:Default:reclamation }
+
+parent_cantine:
+    path:     /parent/cantine
+    defaults: { _controller: ParentBundle:Default:cantine }         

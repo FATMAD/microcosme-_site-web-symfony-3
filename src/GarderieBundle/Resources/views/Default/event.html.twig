@@ -1,0 +1,244 @@
+{% extends 'GarderieBundle::base.html.twig' %}
+
+{% block body %}
+
+
+<div id="breadcrumbs" class="section-block-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<ol class="breadcrumb">
+								<li><a href="#">Home</a></li>
+								<li><a href="events.html">Events</a></li>
+								<li class="active">Great Event title!</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<section id="single_event" class="single_event">
+				<div class="container">
+					<div class="row pb_20">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 dot">
+							<h2 class="section-title">Great Event Title!</h2>
+							<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row sideber_height">
+						<div class="col-md-9">
+							<div class="main_block">
+								<div class="main_block_img">
+									<img src="img/events/events_single.jpg" alt="">
+								</div>
+								<div class="main_block_timer">
+									<div id="register_timer"></div>
+									<div class="timer_button">
+										<p><a class="b_white register-form" href="#contact_form">Register</a></p>
+										<form method="post" id="contact_form" class="white-popup-block mfp-hide">
+											<div class="register_block">
+												<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+												<div class="register_form_top">
+													<div class="register_wave"></div>
+													<h2 class="section-title">Great Event Title!</h2>
+													<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+												</div>
+												<div class="register_date">
+													<div class="register_wave"></div>
+													<div class="row">
+														<div class="col-md-3 col-sm-3">
+															<ul class="r_date">
+																<li class="d_number">15</li>
+																<li class="d_date">dec 2017</li>
+															</ul>
+														</div>
+														<div class="col-md-9 col-sm-9">
+															<ul class="r_info">
+																<li><i class="fa fa-clock-o"></i>8:00 am - 5:00 pm</li>
+																<li><i class="fa fa-phone"></i>888-258-1669</li>
+																<li><i class="fa fa-map-marker"></i>121 King St, Melbourne VIC 3000, Tampa, FR 954816</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="register_input">
+													<div class="contact_form_white">
+														<span>Register for event</span>
+														<div class="form-group">
+															<input id="name" name="name" type="text" placeholder="Name" required="required">
+														</div>
+														<div class="form-group">
+															<input id="email" name="email" type="text" placeholder="E-mail" required="required">
+														</div>
+														<div class="form-group">
+															<input id="phone" name="phone" type="text" placeholder="Phone Number" required="required">
+														</div>
+														<textarea id="message" name="message" rows="3" placeholder="Text" required></textarea>
+														<div id="messegeResult" class="messegeResult">
+															<p>The message was successfully sent</p>
+															<button class="button" type="submit">Send</button>
+														</div>
+													</div>
+												</div>		
+											</div>			
+										</form>
+									</div>		
+								</div>
+								<div class="main_block_description pb_10">
+									<h4>Description</h4>
+									<p>Kindergarten and elementary school teachers prepare younger students for future schooling by teaching them basic subjects such as math and reading. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+									<p>Kindergarten and elementary school teachers prepare younger students for future schooling by teaching them basic subjects such as math and reading. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+									<ul>
+										<li>ability to inspire and motivate</li>
+										<li>creativity to design activities and materials</li>
+										<li>IT, organisational and planning skills</li>
+										<li>ability to manage classes and deal with challenging behaviour</li>
+									</ul>
+									<p>Kindergarten and elementary school teachers prepare younger students for future schooling by teaching them basic subjects such as math and reading. Kindergarten and elementary school teachers prepare younger students for future schooling by teaching them basic subjects such as math and reading. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								</div>
+								<div class="main_block_gallery">
+									<h4>Gallery</h4>
+									<p>Kindergarten and elementary school teachers prepare younger students for future schooling by teaching them basic subjects such as math and reading. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+									<div id="single_event_gallery" class="single_event_gallery owl-carousel owl-theme">
+										<div class="item">
+											<div class="col-md-12 col-portfolio">
+												<div class="event_gallery_block">
+													<figure>
+														<div class="event_gallery_img">
+															<img src="img/events/events_gallery_1.jpg" alt="">
+														</div>
+														<figcaption>
+															<div class="portfolio-lead">
+																<div class="event_gallery_full_screen">
+																	<a class="teacher_link_img" href="img/events/events_gallery_1.jpg">
+																		<img src="img/icons/search_gallery.png" alt="">
+																	</a>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="col-md-12 col-portfolio">
+												<div class="event_gallery_block">
+													<figure>
+														<div class="event_gallery_img">
+															<img src="img/events/events_gallery_2.jpg" alt="">
+														</div>
+														<figcaption>
+															<div class="portfolio-lead">
+																<div class="event_gallery_full_screen">
+																	<a class="teacher_link_img" href="img/events/events_gallery_2.jpg">
+																		<img src="img/icons/search_gallery.png" alt="">
+																	</a>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="col-md-12 col-portfolio">
+												<div class="event_gallery_block">
+													<figure>
+														<div class="event_gallery_img">
+															<img src="img/events/events_gallery_3.jpg" alt="">
+														</div>
+														<figcaption>
+															<div class="portfolio-lead">
+																<div class="event_gallery_full_screen">
+																	<a class="teacher_link_img" href="img/events/events_gallery_3.jpg">
+																		<img src="img/icons/search_gallery.png" alt="">
+																	</a>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="col-md-12 col-portfolio">
+												<div class="event_gallery_block">
+													<figure>
+														<div class="event_gallery_img">
+															<img src="img/events/events_gallery_4.jpg" alt="">
+														</div>
+														<figcaption>
+															<div class="portfolio-lead">
+																<div class="event_gallery_full_screen">
+																	<a class="teacher_link_img" href="img/events/events_gallery_4.jpg">
+																		<img src="img/icons/search_gallery.png" alt="">
+																	</a>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+										</div>			
+									</div>
+								</div>
+								<div id="event_maps" class="event_maps">
+									<div id="map"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div id="sidebar" class="sidebar">
+								<div class="info_block t_white">
+									<div class="date b_blue_light">
+										<ul>
+											<li class="date_number">15</li>
+											<li class="date_month">dec 2017</li>
+										</ul>
+									</div>
+									<div class="contact b_blue">
+										<ul>
+											<li class="fz_18"><i class="fa fa-clock-o"></i>8:00 am - 5:00 pm</li>
+											<li class="fz_18"><i class="fa fa-phone"></i>888-258-1669</li>
+											<li class="fz_15 normal"><i class="fa fa-envelope"></i>event@yeahkids.com</li>
+											<li class="fz_14 lh_16 normal"><i class="fa fa-map-marker"></i>121 King St, Melbourne VIC 3000, Tampa, FR 954816</li>
+										</ul>
+									</div>
+									<div class="document b_blue_dark">
+										<h4><i class="fa fa-folder-open"></i>Documents</h4>
+										<ul>
+											<li><a href="#">event-rules-01.pdf</a> (140kb)</li>
+											<li><a href="#">event-rules-01.pdf</a> (1840kb)</li>
+										</ul>
+									</div>
+								</div>
+								<div class="events">
+									<div class="events_box">
+										<div class="brief_events">
+											<h4><a href="#">Event A</a></h4>
+											<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+										</div>
+										<div class="date_events">
+											<p>19 dec 2017</p>
+										</div>
+									</div>
+									<div class="events_box">
+										<div class="brief_events">
+											<h4><a href="#">Next Event B</a></h4>
+											<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+										</div>
+										<div class="date_events">
+											<p>27 dec 2017</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+{% endblock %}			
